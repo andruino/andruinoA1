@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="IP del Andruino:" />
+
+    <TextView
+        android:id="@+id/TextViewIP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Adelante" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Atrás" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensaje recibido desde PC:" />
+
+    <TextView
+        android:id="@+id/TextViewMensaje"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    
+      <TextView
+        android:id="@+id/textViewSensores"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="............................" 
+        />
+
+    <SurfaceView
+        android:id="@+id/preview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+  
+
+</LinearLayout>
