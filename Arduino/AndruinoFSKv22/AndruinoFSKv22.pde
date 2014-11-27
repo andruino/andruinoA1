@@ -5,7 +5,7 @@
 // La comunicación entre Arduino y Android es por modulación FSK de señal de audio, asíncrona y con explotación de circuito simplex.
 // Si desea un robot más completo la versión AndruinoADK sí posee conexión a USB entre Android y Arduino y gran número de sensores.
 // Autor: 
-// Paco López. Basado en SoftModem-004 by arms22
+// Paco López. Usa la libreria SoftModem-004 by arms22
 // Entorno:
 // Version de Arduino 0023. Librería de SoftModem modificada para funcionar a 630 bps
 // Fecha
